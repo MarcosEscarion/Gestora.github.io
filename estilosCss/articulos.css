@@ -1,0 +1,53 @@
+/*  Articulos  */
+
+.articulos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background-image: url(/imagenes/_6d28f875-c320-42ed-8da8-7cc7f184c898.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    /*background-color: aquamarine;*/
+}
+.articulos h2{
+    margin-top: 2rem;
+}
+.articulos button{
+    margin-bottom: 2rem;
+    
+}
+.articulos a{
+    text-decoration-line: none;
+}
+.articulos .card{
+    width: 70%;
+    max-width: 600px;
+    margin: 3rem 0;
+    /*xmargin: 20px;*/
+
+}
+.articulos .card-header{
+    font-weight: bold;
+}
+@media screen and (max-width:767px) {
+    .articulos{
+        
+        background-size: 95% 100%;
+        
+
+        
+
+    }
+    .articulos .card-header{
+        font-size: 1.5rem;
+
+    }
+    .list-group-item{
+        font-size: 1.5rem;
+    }
+
+    
+    
+}

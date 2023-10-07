@@ -1,0 +1,49 @@
+/* Informes  */
+/*#informes{
+    
+    background-color: bisque;
+}
+.card{
+    margin: rem rem;
+}*/
+.informes-card{
+    width: 15rem;
+    margin:2rem 1rem 0rem 1rem;
+    
+}
+.card-body p{
+    font-size: 0.8rem;
+    font-family: 'Montserrat', sans-serif;
+    margin: 2rem 0rem;
+	line-height: 2;
+
+}
+.card-body h5{
+    margin: 2rem 0rem;
+    font-weight: bold;
+}
+
+@media screen and (max-width:767px) {
+
+   .informes-card{
+    width: 95%;
+   }
+   .card-body p{
+    font-size: 1.5rem;
+   }
+   .card-body h5{
+    font-size: 2rem;
+   }
+   .informes-card img{
+    height: 25rem;
+    
+   }
+   .btn{
+    padding: 1rem 6rem;
+    font-size: 1.8rem;
+   }
+    .informes-card{
+        margin-bottom: 2rem;
+
+    }
+}

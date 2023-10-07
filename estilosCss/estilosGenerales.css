@@ -1,0 +1,82 @@
+/*Estilos generale*/
+html{
+    font-size: 1.2vw;
+    font-family: 'Montserrat', sans-serif;
+    
+
+}
+section{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10rem;
+   
+}
+
+h1{
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 1.5rem;
+}
+h2{
+    font-size: 3rem;
+    font-weight:bold;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 1rem;
+}
+h3{
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+h5{
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+     
+}
+
+.texto-negro{
+    color: black;
+}
+.texto-blanco{
+    color: white;
+}
+.btn{
+     
+    font-family: 'Montserrat', sans-serif;
+    padding: 0.5rem 2rem;
+    
+}
+
+
+@media screen and (max-width:767px) {
+
+    html{
+        font-size: 2vw;
+    }
+    section{
+        margin-bottom:8rem;
+    }
+   
+}
+
+
+/*@media screen and (max-width:400px) {
+    .overlay p {
+        font-size: 18px;
+    }
+    .overlay i {
+        font-size: 40px;
+    }
+}*/
+/*@media screen and (max-width:800px){
+    .testimonios-imagen{
+        height: 120px;
+        width: 120px;
+    }
+    .testimonios-texto{
+        font-size: 18px;
+    }
+
+}*/
+

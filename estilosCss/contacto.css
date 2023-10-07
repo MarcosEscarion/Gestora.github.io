@@ -1,0 +1,33 @@
+
+form{
+    margin-top: 2rem;
+    width: 70%;
+    
+}
+.form-select{
+    margin-bottom: 2rem;
+}
+.form-control{
+    margin-bottom: 2rem;
+
+}
+
+.lebel-select{
+    margin-bottom: 0.5rem;
+}
+@media screen and (max-width:767px) {
+    form{
+        font-size: 2rem;
+    }
+    #exampleFormControlInput1{
+        font-size: 1.5rem;
+    }
+    #exampleFormControlTextarea1{
+        font-size: 1.5rem;
+
+    }
+    .form-select{
+        font-size: 1.5rem;
+
+    }
+}

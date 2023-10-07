@@ -1,0 +1,13 @@
+/*Seccion hero*/
+/*.hero{
+    background-color: beige;
+}*/
+.hero-principal{
+   margin-top: 4rem;
+}
+
+.hero-imagen{
+    width: 15rem;
+    height: 15rem;
+    margin-bottom: 2.2rem;
+}

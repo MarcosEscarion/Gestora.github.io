@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!--Metadatos-->
+    <meta charset="UTF-8">
+    <meta name="author" content="Marcos Escarion">
+    <meta name="description" content="Portafolio de gestoria de Mariela Rivas">
+    <meta name="keywords" content="Gestoria, automotor, gestor, sanjuan">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--icinos de Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!--CSS-->
+    <link rel="stylesheet" href="estilosCss/reset.css">
+    <link rel="stylesheet" href="estilosCss/estilosGenerales.css">
+    <link rel="stylesheet" href="estilosCss/barraNavegacion.css">
+    <link rel="stylesheet" href="estilosCss/tips.css">
+    <link rel="stylesheet" href="estilosCss/sobreMi.css">
+    <link rel="stylesheet" href="estilosCss/informes.css">
+    <link rel="stylesheet" href="estilosCss/hero.css">
+    <link rel="stylesheet" href="estilosCss/articulos.css">
+    <link rel="stylesheet" href="estilosCss/testimonios.css">
+    <link rel="stylesheet" href="estilosCss/contacto.css">
+    <link rel="stylesheet" href="estilosCss/footer.css">
+    <!--Titulo-->
+    <title>Gestoría del automotor</title>
+    <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="imagenes/icono.png">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Quicksand&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <header>
+        <!--Barra de navegacion-->
+        <nav class="navbar navbar-expand-md navbar-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler"
+                    aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <img class=" icono-nav navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-toggler"
+                    aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation"
+                    src="imagenes/gestoria 2.2.png" alt="clientesfelices">
+
+                <div class="collapse navbar-collapse" id="navbar-toggler">
+                    <a class="navbar-brand" href="#">
+                        <img src="imagenes/gestoria 2.2.png" alt="logo de la página web">
+                    </a>
+                    <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre Mí</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#informes">Informes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#articulos">Artículos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!--Seccion Hero-->
+        <section class="hero">
+            <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+                <img class="hero-imagen" src="imagenes/ilustracion-perfil.PNG" alt="ilustracion de una gestora">
+                <h2>Hola, soy Mariela Rivas</h2>
+                <h1>Mandataria nacional del automotor</h1>
+            </div>
+        </section>
+        <!--Sobre Mi-->
+        <section id="sobre-mi" class="sobre-mi">
+            <div class="contenedor">
+                <!--<h2>Conoce a Mariela Rivas</h2>-->
+                <p class="seccion-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultrices nunc et
+                    risus consequat rhoncus. Cras faucibus dolor a pellentesque rhoncus. Phasellus mollis mauris eget
+                    consequat lobortis. In ac diam eu neque fringilla tempor. Nullam orci metus, sollicitudin nec urna
+                    et, porttitor sollicitudin tellus. Donec semper finibus tortor eu posuere. Quisque libero nunc,
+                </p>
+            </div>
+        </section>
+        <!-- Informes -->
+        <section id="informes" class="d-flex flex-column text-center">
+            <h2>Informes y Asesoría</h2>
+            <h3>Compra tu vehículo de forma segura</h3>
+            <!--galeria de informes-->
+            <div class="container d-flex flex-wrap justify-content-center">
+                <div class="informes-card card">
+                    <img src=" imagenes/autoLupa1.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Informe Completo</h5>
+                        <p class="card-text">Este servicio incluye un informe de estado de dominio y también de
+                            infracciones. <br><br><br></p>
+                        <a href="#" class="btn btn-primary">Solicitar</a>
+                    </div>
+                </div>
+                <div class="informes-card card">
+                    <img src="imagenes/autoLupa2.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Estado De Dominio</h5>
+                        <p class="card-text">Datos completos del vehículo y del titular, denuncia de venta, embargos,
+                            prendas, inhibiciones, problemas legales, robo o secuestro, etc</p>
+                        <a href="#" class="btn btn-primary">Solicitar</a>
+                    </div>
+                </div>
+                <div class="informes-card card">
+                    <img src="imagenes/autoLupa3.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Informe De Infracciones</h5>
+                        <p class="card-text">Incluye todas las infracciones y multas pendientes de resolución de todo el
+                            país. <br><br><br></p>
+                        <a href="#" class="btn btn-primary">Solicitar</a>
+                    </div>
+                </div>
+                <div class="informes-card card">
+                    <img src="/imagenes/autoLupa4.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Informe Histórico</h5>
+                        <p class="card-text">Te será posible ver un detalle completo de todos los titulares que tuvo el
+                            vehículo desde 0Km hasta la fecha actual. <br><br></p>
+                        <a href="#" class="btn btn-primary">Solicitar</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </section>
+        <!--Tips
+        <section class="tips">
+            <h2>Información a tener en cuenta</h2>
+             
+            <div class="celdas tips1">
+                <p class="tips-titulo">El 08 caduca si el titular fallece</p>
+                <p>La Solicitud Tipo 08 que contiene el acuerdo de transferencia de un automotor, caduca
+                    aun estando suscripta con firma certificada por el vendedor titular registral si el citado
+                    fallece antes que el adquirente firme y certifique su firma como comprador. <br> <br> <span>Si
+                        tienes el 08 firmado solo por el titular (en blanco) o vas a adquirir
+                        un vehículo, ten en cuenta la normativa y realiza la transferencia
+                        inmediatamente.</span> </p>
+            </div>
+            
+            <div class="celdas tips2">
+                <p class="tips-titulo">Si vas a Transferir debes abonar
+                    la totalidad de la deuda de patentes</p>
+                <p>Al momento de realizar la transferencia debes abonar la totalidad de la deuda (si la hubiera)
+                    del impuesto automotor (patentes) y la normativa vigente en la provincia de San Juan
+                    no permite realizar plan de pago o negativa de pago.<br> <br> <span>Si vas a adquirir un vehículo
+                        consulta siempre el estado de deuda.</span> </p>
+            </div>
+            
+            <div class="celdas tips3">
+                <p class="tips-titulo">Denunciar la venta de un automotor</p>
+                <p>Este trámite te exime de cualquier responsabilidad
+                    civil con respecto al automotor y a la vez, obliga al
+                    comprador a hacer la transferencia en un plazo de
+                    30 días hábiles. Si no se completa la transferencia
+                    de dominio, el organismo te alertará vía e-mail de
+                    tal situación, al tiempo que dispondrá la prohibición
+                    de circular y el secuestro del rodado.</p>
+            </div>
+        </section>-->
+
+        <!--Articulos-->
+        <section class="articulos" id="articulos">
+            <h2>Artículos</h2>
+            <div class="card">
+                <div class="card-header">
+                    Mas Recientes
+                </div>
+                <ul class="list-group list-group-flush">
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                        <li class="list-group-item">Trasferencia con cambio de radicación</li>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                        <li class="list-group-item">Reempadronamiento</li>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                        <li class="list-group-item">Denuncia de compra y posesión</li>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                        <li class="list-group-item">Trasferencia con cambio de radicación</li>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                        <li class="list-group-item">Reempadronamiento</li>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                        <li class="list-group-item">Denuncia de compra y posesión</li>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                        <li class="list-group-item">Trasferencia con cambio de radicación</li>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                        <li class="list-group-item">Reempadronamiento</li>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                        <li class="list-group-item">Denuncia de compra y posesión</li>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                        <li class="list-group-item">Denuncia de compra y posesión</li>
+                    </a>
+
+                </ul>
+            </div>
+            <a href="#" target="_blank" rel="noopener noreferrer">
+                <button type="button" class="btn btn-primary">
+                    Ver mas artículos
+                    <i class="bi bi-arrow-right-circle-fill"></i>
+                </button>
+            </a>
+        </section>
+        <!--Testimonios-->
+        <section class="testimonios seccion-clara">
+            <h2 class="seccion-titulo">Testimonios</h2>
+            <h3 class="seccion-descripcion">Estos son algunos testimonios de mis clientes</h3>
+            <!--Carrusel-->
+            <div id="testimonios-carrusel" class="carousel slide carousel-dark">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="container">
+                            <img class="testimonios-imagen rounded-circle" src="imagenes/cliente.jpg"
+                                alt="foto del cliente">
+                            <p class="testimonios-texto">Lorem ipsum dolor sit amet sapiente cupiditate, voluptas
+                                dignissimos dolorum modi in id ipsum magnam iste autem blanditiis dolorem.</p>
+                            <div class="testimonios-info">
+                                <p class="cliente">Roman</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container">
+                            <img class="testimonios-imagen rounded-circle" src="imagenes/cliente.jpg"
+                                alt="foto del cliente">
+                            <p class="testimonios-texto">Lorem ipsum dolor sit amet sapiente cupiditate, voluptas
+                                dignissimos dolorum modi in id ipsum magnam iste autem blanditiis dolorem.</p>
+                            <div class="testimonios-info">
+                                <p class="cliente">Roman</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container">
+                            <img class="testimonios-imagen rounded-circle" src="imagenes/cliente.jpg"
+                                alt="foto del cliente">
+                            <p class="testimonios-texto">Lorem ipsum dolor sit amet sapiente cupiditate, voluptas
+                                dignissimos dolorum modi in id ipsum magnam iste autem blanditiis dolorem.</p>
+                            <div class="testimonios-info">
+                                <p class="cliente">Roman</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </section>
+        <!-- Contacto -->
+        <section class="contacto" id="contacto">
+            <h2>Contacto</h2>
+
+            <form action="">
+                <label class="lebel-select" for="motivo">Seleccione el Motivo de contacto</label>
+                <select name="motivo" class="form-select" aria-label="Default select example">
+                    <option selected>Open this select menu</option>
+                    <option value="1">Informes</option>
+                    <option value="2">Trasferencia</option>
+                    <option value="3">Duplicado de chapa</option>
+                    <option value="3">otro</option>
+                </select>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+                                
+            </form>
+
+        </section>
+    </main>
+    <!-- footer -->
+    <footer class=" d-flex flex-column  ">
+        <div class=" n d-flex flex-row">
+            <img class="footer-icono" src="imagenes/logo blanco.png" alt="logo del Portafolio">
+
+            <div class="iconos-redes-sociales d-flex flex-row ">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-facebook"></i>
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-whatsapp"></i>
+                </a>
+
+            </div>
+        </div>
+
+        <div class="derechos-de-autor">
+            Creado por Marcos Escarion (2023) &#169;
+        </div>
+
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
